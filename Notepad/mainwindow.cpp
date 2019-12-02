@@ -15,7 +15,7 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
-    QString sPath = "C:/UNI/Programming/Labs/C++/Qt/Notepad/RootPath";
+    QString sPath = "C:/UNI/Progects/modified-nodepad/Notepad/RootPath";
     dirmodel = new QFileSystemModel(this);
     dirmodel->setRootPath(sPath);
     dirmodel->sort(3);
